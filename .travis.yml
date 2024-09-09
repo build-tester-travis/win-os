@@ -1,16 +1,18 @@
 os: windows
 language: shell
-
 jobs:
   include:
-    - name: "Job 1"
+    - name: "Job 1 - Windows"
       script:
-      - echo "Running Job 1"
+        - echo "Running Windows Job 1"
+        - dir
 
-    - name: "Job 2"
+    - name: "Job 2 - Windows"
       script:
-      - echo "Running Job 2"
+        - echo "Running Windows Job 2"
+        - dir
 
-    - name: "Job 3"
+    - name: "Job 3 - Windows"
       script:
-      - echo "Running Job 3"
+        - echo "Running Windows Job 3"
+        - dir
