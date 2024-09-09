@@ -1,4 +1,16 @@
 os: windows
 language: shell
-script:
-  - echo "test"
+
+jobs:
+  include:
+    - name: "Job 1"
+      script:
+      - echo "Running Job 1"
+
+    - name: "Job 2"
+      script:
+      - echo "Running Job 2"
+
+    - name: "Job 3"
+      script:
+      - echo "Running Job 3"
