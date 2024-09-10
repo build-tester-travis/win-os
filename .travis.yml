@@ -5,14 +5,11 @@ jobs:
     - name: "Job 1 - Windows"
       script:
         - echo "Running Windows Job 1"
-        - dir
 
     - name: "Job 2 - Windows"
       script:
         - echo "Running Windows Job 2"
-        - dir
 
     - name: "Job 3 - Windows"
       script:
         - echo "Running Windows Job 3"
-        - dir
